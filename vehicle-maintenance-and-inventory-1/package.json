@@ -1,0 +1,36 @@
+{
+  "name": "vehicle-maintenance-and-inventory-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "argon2": "^0.41.1",
+    "axios": "^1.7.7",
+    "bcryptjs": "^2.4.3",
+    "fast-jwt": "^4.0.5",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.6.3",
+    "next": "14.2.13",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-icons": "^5.3.0",
+    "react-toastify": "^10.0.5",
+    "zustand": "^5.0.0-rc.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.13",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
